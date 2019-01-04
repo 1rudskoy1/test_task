@@ -1,0 +1,42 @@
+.form{
+	margin-top: 50px;
+	text-align: center;
+}
+.form__label{
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	font-weight: 600;
+}
+.form__btn{
+	cursor: pointer;
+	margin-top: 20px;
+}
+.form__btn:hover{
+	background: rgba(0,0,0,0);
+	color: #007bff;
+}
+.error,.fine{
+	color: red;
+	display: block;
+	widows: 300px;
+	margin: 20px auto;
+}
+.fine{
+	color: #007bff;
+}
+.form__link{
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}
+.form__input_error{
+	border: 1px solid red;
+}
+.info{
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
